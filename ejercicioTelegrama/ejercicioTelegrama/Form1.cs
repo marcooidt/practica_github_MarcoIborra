@@ -26,9 +26,14 @@ namespace ejercicioTelegrama
 
             textoTelegrama = txtTelegrama.Text;
 
-            if (chkUrgente.Checked)
+            // Leer el tipo de telegrama
+            if (rbUrgente.Checked)
             {
                 tipoTelegrama = 'u';
+            }
+            else // Asume que si no es Urgente, es Ordinario
+            {
+                tipoTelegrama = 'o';
             }
 
             string[] palabras = textoTelegrama.Split(' ');
