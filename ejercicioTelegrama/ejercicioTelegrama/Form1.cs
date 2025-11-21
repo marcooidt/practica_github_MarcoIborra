@@ -42,7 +42,8 @@ namespace ejercicioTelegrama
                 }
                 else
                 {
-                    coste = 0.5 * numPalabras;
+                    // CORRECCIÓN: 2.5€ base + (palabras_extra * 0.50€)
+                    coste = 2.5 + 0.5 * (numPalabras - 10);
                 }
             }
             else

@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.txtTelegrama = new System.Windows.Forms.TextBox();
+            this.chkUrgente = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
             this.btnCalcularPrecio = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -47,25 +47,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Texto:";
             // 
-            // textBox1
+            // txtTelegrama
             // 
-            this.textBox1.Location = new System.Drawing.Point(78, 90);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(646, 191);
-            this.textBox1.TabIndex = 1;
+            this.txtTelegrama.Location = new System.Drawing.Point(78, 90);
+            this.txtTelegrama.Multiline = true;
+            this.txtTelegrama.Name = "txtTelegrama";
+            this.txtTelegrama.Size = new System.Drawing.Size(646, 191);
+            this.txtTelegrama.TabIndex = 1;
             // 
-            // checkBox1
+            // chkUrgente
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(78, 297);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(106, 26);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Urgente?";
-            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkUrgente.AutoSize = true;
+            this.chkUrgente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkUrgente.Location = new System.Drawing.Point(78, 297);
+            this.chkUrgente.Name = "chkUrgente";
+            this.chkUrgente.Size = new System.Drawing.Size(106, 26);
+            this.chkUrgente.TabIndex = 2;
+            this.chkUrgente.Text = "Urgente?";
+            this.chkUrgente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkUrgente.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -77,13 +77,13 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Coste:";
             // 
-            // textBox2
+            // txtPrecio
             // 
-            this.textBox2.Location = new System.Drawing.Point(147, 361);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(134, 22);
-            this.textBox2.TabIndex = 4;
+            this.txtPrecio.Location = new System.Drawing.Point(147, 361);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.ReadOnly = true;
+            this.txtPrecio.Size = new System.Drawing.Size(134, 22);
+            this.txtPrecio.TabIndex = 4;
             // 
             // btnCalcularPrecio
             // 
@@ -112,10 +112,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCalcularPrecio);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.chkUrgente);
+            this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = " ";
@@ -127,10 +127,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox txtTelegrama;
+        private System.Windows.Forms.CheckBox chkUrgente;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button btnCalcularPrecio;
         private System.Windows.Forms.Label label3;
     }

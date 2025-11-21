@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marco\\source\\repos\\practica_github_MarcoIborra\\ejercicioTelegrama\\",
+  "WorkspaceRootPath": "C:\\Users\\marco\\Documents\\1\u00BA DAW\\Entornos de Desarrollo\\practica_github_MarcoIborra\\ejercicioTelegrama\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8475CF1A-91EA-4026-AC88-407D00CA4B6E}|ejercicioTelegrama\\ejercicioTelegrama.csproj|c:\\users\\marco\\source\\repos\\practica_github_marcoiborra\\ejerciciotelegrama\\ejerciciotelegrama\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8475CF1A-91EA-4026-AC88-407D00CA4B6E}|ejercicioTelegrama\\ejercicioTelegrama.csproj|c:\\users\\marco\\documents\\1\u00BA daw\\entornos de desarrollo\\practica_github_marcoiborra\\ejerciciotelegrama\\ejerciciotelegrama\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8475CF1A-91EA-4026-AC88-407D00CA4B6E}|ejercicioTelegrama\\ejercicioTelegrama.csproj|solutionrelative:ejerciciotelegrama\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\practica_github_MarcoIborra\\ejercicioTelegrama\\ejercicioTelegrama\\Form1.cs",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marco\\Documents\\1\u00BA DAW\\Entornos de Desarrollo\\practica_github_MarcoIborra\\ejercicioTelegrama\\ejercicioTelegrama\\Form1.cs",
               "RelativeDocumentMoniker": "ejercicioTelegrama\\Form1.cs",
-              "ToolTip": "C:\\Users\\marco\\source\\repos\\practica_github_MarcoIborra\\ejercicioTelegrama\\ejercicioTelegrama\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ejercicioTelegrama\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\marco\\Documents\\1\u00BA DAW\\Entornos de Desarrollo\\practica_github_MarcoIborra\\ejercicioTelegrama\\ejercicioTelegrama\\Form1.cs [Design]",
+              "RelativeToolTip": "ejercicioTelegrama\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T13:34:37.058Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "EditorCaption": " [Design]"
             }
           ]
         }
